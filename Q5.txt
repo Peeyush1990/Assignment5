@@ -1,0 +1,2 @@
+The output will be: 10
+This is because an initialized final variable can only be assigned its value in the constructor.

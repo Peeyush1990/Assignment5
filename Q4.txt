@@ -1,0 +1,8 @@
+The given code will not compile.
+There are two errors:
+
+1) The return type of 'm1' function should be 'void' instead of 'Void'. 'void' is a primitive type and 'Void' is a reference type that inherits from Object. They are similar in that neither of them has any possible values; but nevertheless they are two very different types, from the type system's point of view.
+
+2) In the 'm1' function, there should be ";" at the end and not ":".
+
+If both of these errors are removed, the output of the system will be: 24.
